@@ -25,3 +25,9 @@ basic websocket code for the leaning session - it's just the example code from [
 - think about how we can use this to implement live colab (the code I used to create the prototype is in the 'proto_code' folder in this repo. the .ts files have the code to adapt the current lca-studio-prototype code.)
 - **Try and think of a better way for us to do this. There's definately other methods for getting the same result - some of them will probably be better.**
 - we will run through this code quickly in the learning session to make sure everyone had a basic idea of what's going on, then we'll move on to discussing possibilities for how we can do live colab for realzies.
+
+# reading list
+here's a few links to related documentation:
+[python websockets](https://websockets.readthedocs.io/en/stable/index.html) - the python library docs
+[python asyncio](https://docs.python.org/3/library/asyncio.html) - websockets (python) utilizes asyncio. if you're planning on working on the python backend, its good to get a good understanding of async in python.
+[js websockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket) - the mozilla mdn docs for the built-in js WebSocket object
